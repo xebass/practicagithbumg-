@@ -14,7 +14,10 @@ public class Github {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+        Empleado emp = new Empleado();
+        Empleado.CrearSalario();
+        system.println("salario: " +emp.salario*0.5);
+        
+            }
     
 }
